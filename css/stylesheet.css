@@ -47,11 +47,6 @@ nav li {
     padding: 1em 2.5em;
 }
 
-nav a {
-    transition-property: color,background;
-    transition-duration: .2s;
-    transition-timing-function: ease-out
-}
 
 nav li {
     color: #99A0B0;
@@ -114,6 +109,43 @@ span {
     color: #57f094;
     cursor: pointer;
 }
+
+
+/********** ABOUT SECTION ************/
+
+section {
+    background-color: #F5F5F5;
+    margin: 0;
+}
+section h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 40px 0 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+section h3 {
+    color: #90a5ff;
+    margin-bottom: 50px;
+}
+
+section #section-content {
+    padding-top: 60px;
+    width: 60%;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    
+}
+
+
 
 .clearfix:after {
     content: "";
