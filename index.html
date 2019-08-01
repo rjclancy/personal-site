@@ -1,49 +1,98 @@
 <!doctype html>
 <html>
-
     <head>
         <title>My Site</title>
 
         <!-- Normalize.css -->
-        <link rel="stylesheet" type="text/css" href="/css/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="/css/normalize.css">
 
         <!-- stylesheet.css -->
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-        
+
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+        <!-- TODO convert to bootstrap :) https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_default&stacked=h -->
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
     </head>
 
     <body>
-
         <nav class="clearfix">
             <div id="nav-name">Dean Clancy</div>
             <ul>
-                <a href="#"><li>Work</li></a>
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Contact</li></a>
-            </ul> 
+                <a href="#">
+                    <li>Work</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+            </ul>
         </nav>
-        
-        <header >
+
+        <header>
             <div id="showcase">
                 <span>Hi, I'm </span>
                 <h1 id="showcase-name">Dean Clancy.</h1>
                 <span>A Computer Science Student at TRU, Kamloops.</span>
                 <span>My website is coming soon.</span>
-                
-                <a><button id="showcase-button">Find out more</button></a>
+                <a id="showcase-button">Find out more</a>
             </div><!-- #container -->
         </header> <!-- header -->
-        
+
         <section id="about-section">
             <div id="section-content">
-                <img src="images/IMG_5578.JPG">
-                <h2>About Me</h2>
-                <h3>The Basics</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </section>
-    </body>
+                <div class="about-head--landscape" class="clearfix">
+                    <img src="images/IMG_5578.JPG">
+                </div>
+                <div>
+                    <h2>About Me</h2>
+                    <h3>The Basics</h3>
+                </div>
+                <div id="about-body" class="clearfix;">
+                    <div id="about-left">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div id="about-right">
+                        <h4>What I know:</h4>
+                        <ul>
+                            <li>Java</li>
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- end section-content -->
+        </section> <!-- end about-section -->
 
+        <section id="about-section">
+            <div id="section-content">
+                <div id="contact-head" class="clearfix">
+                    <h2>Contact Me</h2>
+                    <h3>Get in touch</h3>
+                </div>
+                <div id="contact-body" class="clearfix;">
+                </div>
+            </div> <!-- end section-content -->
+        </section> <!-- end contact-section -->
+
+        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+                href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0
+                BY</a></div>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+                href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0
+                BY</a></div>
+    </body>
 </html>

@@ -82,6 +82,7 @@ header {
     letter-spacing: 4.5px;
     font-size: 5em;
     margin: 0.3em 0;
+    
 }
 
 span {
@@ -116,36 +117,102 @@ span {
 section {
     background-color: #F5F5F5;
     margin: 0;
+    padding-bottom: 60px;
+    height: auto;
 }
+
+#about-head {
+    display: block;
+    width: 100%;
+}
+
 section h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
     padding: 40px 0 10px 0;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
     letter-spacing: 3px;
 }
 
 section h3 {
-    color: #90a5ff;
+    color: #57f094 ;         /* #90a5ff */
     margin-bottom: 50px;
+    font-size: 1.5rem;
 }
 
 section #section-content {
     padding-top: 60px;
-    width: 60%;
+    width: 70%;
+    height: auto;
+    border-bottom: solid 1px gray;
+    padding-bottom: 30px;
 }
 
-img {
-    width: 250px;
-    height: 250px;
+.about-head--landscape {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
     border-radius: 50%;
+  }
+  
+.about-head--landscape img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
+
+#about-body{
+    width: 100%;
     display: block;
+    display: flex;
+}
+
+#about-head {
+    display: block;
+}
+#about-left {
+    float: left;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#about-right {
+    float: right;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#about-right h4 {
+    font-size: 2rem;
+    color: #90a5ff;
+    border-bottom: 1px gray solid;
+}
+
+#about-right ul{
+    list-style: none;
+    
     
 }
 
+#about-right ul img{
+    height: 60px;
+    width: 60px;
+}
 
+#about-right ul li {
+    margin: 15px 0 15px 0;
+    font-size: 1.5rem;
+    margin-left: 40px;
+}
+
+/********** CONTACT SECTION ************/
+
+#contact-section #section-content {
+    padding-top: 0;
+}
 
 .clearfix:after {
     content: "";
