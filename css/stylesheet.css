@@ -172,6 +172,19 @@ section #section-content {
 
 #about-head {
     display: block;
+    border: solid px gray; 
+    
+}
+
+#about-body{
+    width: 100%;
+    display: block;
+    display: flex;
+}
+
+#about-head {
+    display: block;
+
 }
 #about-left {
     float: left;
